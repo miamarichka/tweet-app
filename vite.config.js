@@ -5,9 +5,9 @@ import pluginRewriteAll from 'vite-plugin-rewrite-all'
 export default defineConfig({
   plugins: [react(), pluginRewriteAll()],
   base: '/tweet-app/',
-  resolve: {
-    alias: {
-      'react-dom': '@hot-loader/react-dom',
-    },
-  },
+  // resolve: {
+  //   alias: {
+  //     'react-dom': '@hot-loader/react-dom',
+  //   },
+  // },
 })
