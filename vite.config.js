@@ -1,8 +1,9 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
+import pluginRewriteAll from 'vite-plugin-rewrite-all'
 
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(), pluginRewriteAll()],
   base: '/tweet-app/',
   resolve: {
     alias: {
