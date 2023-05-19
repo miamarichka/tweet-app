@@ -8,7 +8,7 @@ import "./index.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename='/tweet-app'>
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </React.StrictMode>,
