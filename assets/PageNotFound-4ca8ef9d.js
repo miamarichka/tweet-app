@@ -1,1 +1,0 @@
-import{j as t,a as e}from"./index-af07ea00.js";const s="/tweet-app/assets/404-error-page-not-found-9b89b2f6.jpg",n=()=>t.jsxs("div",{children:[t.jsx("img",{src:s,style:{width:"700px"}}),t.jsx("p",{style:{textAlign:"center"},children:t.jsx(e,{to:"/",children:"Go to Home "})})]});export{n as default};
