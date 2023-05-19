@@ -1,0 +1,1 @@
+import{j as t,a as e}from"./index-0077ac8d.js";const s="/react-vite-gh-pages/assets/404-error-page-not-found-9b89b2f6.jpg",r=()=>t.jsxs("div",{children:[t.jsx("img",{src:s,style:{width:"700px"}}),t.jsx("p",{style:{textAlign:"center"},children:t.jsx(e,{to:"/",children:"Go to Home "})})]});export{r as default};
